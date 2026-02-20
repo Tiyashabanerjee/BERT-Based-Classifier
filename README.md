@@ -39,7 +39,7 @@ python3 classifier.py --option [pretrain/finetune] --epochs NUM_EPOCHS --lr LR -
 ### Submission
 * The coding file should be a zip file with the following structure
 ```
-CAMPUSID/
+File Name/
 ├── classifier.py
 ├── utils.py
 ├── README.md
