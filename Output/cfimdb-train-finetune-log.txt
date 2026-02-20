@@ -1,0 +1,20 @@
+Args: {'train': 'data/cfimdb-train.txt', 'dev': 'data/cfimdb-dev.txt', 'test': 'data/cfimdb-test.txt', 'seed': 1234, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': '2001464157/cfimdb-dev-finetune-output.txt', 'test_out': '2001464157/cfimdb-test-finetune-output.txt', 'filepath': '2001464157/cfimdb-model-finetune.pt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+Loaded 1707 examples from data/cfimdb-train.txt
+Loaded 245 examples from data/cfimdb-dev.txt
+Saved the model to 2001464157/cfimdb-model-finetune.pt
+Epoch 0: Train Loss = 0.475, Train Acc = 0.979, Dev Acc = 0.963
+Epoch 1: Train Loss = 0.085, Train Acc = 0.991, Dev Acc = 0.939
+Epoch 2: Train Loss = 0.047, Train Acc = 0.996, Dev Acc = 0.935
+Saved the model to 2001464157/cfimdb-model-finetune.pt
+Epoch 3: Train Loss = 0.030, Train Acc = 0.996, Dev Acc = 0.967
+Epoch 4: Train Loss = 0.026, Train Acc = 0.995, Dev Acc = 0.947
+Epoch 5: Train Loss = 0.019, Train Acc = 0.998, Dev Acc = 0.947
+Epoch 6: Train Loss = 0.011, Train Acc = 0.998, Dev Acc = 0.947
+Epoch 7: Train Loss = 0.003, Train Acc = 0.999, Dev Acc = 0.951
+Epoch 8: Train Loss = 0.003, Train Acc = 1.000, Dev Acc = 0.943
+Epoch 9: Train Loss = 0.001, Train Acc = 1.000, Dev Acc = 0.943
+Loaded model from 2001464157/cfimdb-model-finetune.pt
+Loaded 245 examples from data/cfimdb-dev.txt
+Loaded 488 examples from data/cfimdb-test.txt
+Dev Acc = 0.967
+Test Acc = 0.500
