@@ -3,7 +3,7 @@
 This code is adapted from CMU's [CS11-747: Neural Networks for NLP](http://www.phontron.com/class/nn4nlp2020/), by Shuyan Zhou, Zhengbao Jiang, Ritam Dutt and Brendon Boldt
 
 
-In this assignment, you will perform text classification on ``cfimdb`` dataset with the BERT model.
+This code is to perform text classification on ``cfimdb`` dataset with the BERT model.
 
 
 ## Code Structure
